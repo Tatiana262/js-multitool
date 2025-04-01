@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер на JS</title>
+</head>
+<body>
+
+  <div class="slider">
+    <button id="prevBtn" class="slider-btn" disabled>←</button>
+    <div class="slider-container">
+        <div class="slider-track">
+            <!-- Слайды будут добавляться динамически -->
+        </div>
+    </div>
+    <button id="nextBtn" class="slider-btn">→</button>
+  </div>
+
+  <div class="calculator">
+    <div class="display">0</div>
+    <div class="calc-buttons">
+      <button class="button btn-grey">AC</button>
+      <button class="button btn-grey">+/-</button>
+      <button class="button btn-grey">%</button>
+      <button class="button btn-orange">/</button>
+
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button btn-orange">*</button>
+
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button btn-orange">-</button>
+
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button btn-orange">+</button>
+
+      <button class="button zero-btn">0</button>
+      <button class="button">.</button>
+      <button class="button btn-orange">=</button>
+    </div>
+  </div>
+
+
+  <div class="timer-container">
+    <h1>Pomodoro Timer</h1>
+    <div class="timer">
+        <span class="mins">25</span>:<span class="secs">00</span>
+    </div>
+    <div class="timer-buttons">
+        <button class="start">Старт</button>
+        <button class="pause">Пауза</button>
+        <button class="reset">Сброс</button>
+    </div>
+    <h3 class="timer-message">Time to focus!</h3>
+    <form>
+        <div>Время работы (мин): <input type="number" id="focusTime" value="25"></div>
+        <div>Время отдыха (мин): <input type="number" id="breakTime" value="5"></div>
+        <button type="submit">Сохранить</button>
+    </form>
+  </div>  
+
+  <div class="labyrinth-container">
+    <h1>Игра "Лабиринт"</h1>
+    <div class="labyrinth-btns">
+      <button id="start-game">Старт</button>
+      <button id="restart-game">Рестарт</button>
+    </div>
+    <label>Размеры: <input type="number" id="size" min="5" max="20" value="5"></label>
+    <div id="grid" class="grid"></div>
+  </div>
+
+  <div class="weather-container">
+    <h2>Weather</h2>
+    <input type="text" id="cityInput" placeholder="City">
+    <button class="get-weather-btn">Search</button>
+    <div class="weather-card">
+        <h3 id="location">Loading...</h3>
+        <img id="icon" src="" alt="Weather Icon">
+        <h1 id="temperature">--°C</h1>
+        <p id="description">--</p>
+        <button class="toggle-temperature-btn">Switch °C/°F</button>
+    </div>
+  </div>
+
+</body>
+</html>

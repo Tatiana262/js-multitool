@@ -1,0 +1,11 @@
+import "./styles/index.css";
+import "./styles/slider.css";
+import "./styles/calculator.css";
+import "./styles/pomodoro.css";
+import "./styles/labyrinth.css";
+import "./styles/weather.css";
+import "./slider.js";
+import "./calculator.js";
+import "./pomodoro.js";
+import "./labyrinth.js";
+import "./weather.js";

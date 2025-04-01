@@ -1,0 +1,19 @@
+.weather-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 50px;
+}
+
+/* .weather-card img {
+    width: 50px;
+    height: 50px;
+} */
+
+.weather-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

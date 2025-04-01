@@ -1,0 +1,56 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.slider-container {
+    overflow: hidden;
+    flex: 1;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 2%; /* Отступ между слайдами */
+}
+
+
+.no-animation {
+    transition: none;  /* Без анимации */
+}
+
+.slide {
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Кнопки */
+.slider-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.slider-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#prevBtn {
+    margin-right: 0.5rem;
+}
